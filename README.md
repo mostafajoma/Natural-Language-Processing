@@ -52,4 +52,4 @@ Next, looked at the ngrams and word frequency for each coin.
 
 Finally, generated word clouds for each coin to summarize the news for each coin.
 ![world-cloud](Images/btc-word-cloud.png)
-![world-cloud]()
+![world-cloud](Images/eth-word-cloud.png)
