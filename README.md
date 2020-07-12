@@ -1,6 +1,8 @@
 # Natural-Language-Processing
 Sentiment Analysis and Natural Language Processing for Bitcoin and Ethereum
 
+![Stock Sentiment](Images/sentimental.jpeg)
+
 
 ## Background
 
@@ -14,14 +16,22 @@ Completed tasks:
 2. [Natural Language Processing](#Natural-Language-Processing)
 3. [Named Entity Recognition](#Named-Entity-Recognition)
 
+### Prerequisites
 
+#### os
+#### pandas
+#### newsapi
+#### nltk.sentiment.vader
 
-#### Sentiment Analysis
+### Sentiment Analysis
 
 Used the [newsapi](https://newsapi.org/) to pull the latest news articles for Bitcoin and Ethereum and create a DataFrame of sentiment scores for each coin.
 
+![bitcoin-news](Images/bitcoin-news.png)
 
-#### Natural Language Processing
+![etherum-news](Images/etherum-news.png)
+
+### Natural Language Processing
 
 In this section, I used NLTK and Python to tokenize the text for each coin, and :
 
@@ -29,9 +39,17 @@ In this section, I used NLTK and Python to tokenize the text for each coin, and 
 2. Remove punctuation
 3. Remove stop words
 
+![token](Images/bitcoin-tokenized.png)
+![token](Images/etherum-tokenized.png)
+
 Next, looked at the ngrams and word frequency for each coin.
 
 1. Used NLTK to produce the ngrams for N = 2.
 2. Listed the top 10 words for each coin.
 
+![count](Images/bitcoin-count.png)
+![count](Images/etherum-count.png)
+
 Finally, generated word clouds for each coin to summarize the news for each coin.
+![world-cloud](Images/btc-word-cloud.png)
+![world-cloud]()
